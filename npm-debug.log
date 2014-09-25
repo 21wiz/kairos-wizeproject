@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 warn package.json fs@0.0.2 fs is also the name of a node core module.
+5 warn package.json fs@0.0.2 No description
+6 warn package.json fs@0.0.2 No repository field.
+7 warn package.json querystring@0.2.0 querystring is also the name of a node core module.
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'https', null ]
+10 verbose cache add name=undefined spec="https" args=["https",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'https',
+11 verbose parsed url   path: 'https',
+11 verbose parsed url   href: 'https' }
+12 silly lockFile c3437dbc-https https
+13 verbose lock https /home/wiz/.npm/c3437dbc-https.lock
+14 silly lockFile c3437dbc-https https
+15 silly lockFile c3437dbc-https https
+16 verbose addNamed [ 'https', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 421d451a-https https@
+19 verbose lock https@ /home/wiz/.npm/421d451a-https.lock
+20 silly addNameRange { name: 'https', range: '*', hasData: false }
+21 verbose request where is /https
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 6d9889ef342e7596
+24 verbose url raw /https
+25 verbose url resolving [ 'https://registry.npmjs.org/', './https' ]
+26 verbose url resolved https://registry.npmjs.org/https
+27 verbose request where is https://registry.npmjs.org/https
+28 info trying registry request attempt 1 at 03:15:42
+29 http GET https://registry.npmjs.org/https
+30 http 404 https://registry.npmjs.org/https
+31 verbose headers { date: 'Tue, 23 Sep 2014 08:15:42 GMT',
+31 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=0',
+31 verbose headers   'content-length': '52',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '0',
+31 verbose headers   'x-served-by': 'cache-dfw1824-DFW',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1411460142.863301,VS0,VE44',
+31 verbose headers   'keep-alive': 'timeout=10, max=50',
+31 verbose headers   connection: 'Keep-Alive' }
+32 silly registry.get cb [ 404,
+32 silly registry.get   { date: 'Tue, 23 Sep 2014 08:15:42 GMT',
+32 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly registry.get     'content-type': 'application/json',
+32 silly registry.get     'cache-control': 'max-age=0',
+32 silly registry.get     'content-length': '52',
+32 silly registry.get     'accept-ranges': 'bytes',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     age: '0',
+32 silly registry.get     'x-served-by': 'cache-dfw1824-DFW',
+32 silly registry.get     'x-cache': 'MISS',
+32 silly registry.get     'x-cache-hits': '0',
+32 silly registry.get     'x-timer': 'S1411460142.863301,VS0,VE44',
+32 silly registry.get     'keep-alive': 'timeout=10, max=50',
+32 silly registry.get     connection: 'Keep-Alive' } ]
+33 silly lockFile 421d451a-https https@
+34 silly lockFile 421d451a-https https@
+35 error 404 404 Not Found: https
+35 error 404
+35 error 404 'https' is not in the npm registry.
+35 error 404 You should bug the author to publish it
+35 error 404 It was specified as a dependency of 'express_example'
+35 error 404
+35 error 404 Note that you can also install from a
+35 error 404 tarball, folder, or http url, or git url.
+36 error System Linux 3.13.0-30-generic
+37 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "https"
+38 error cwd /home/wiz/Desktop/myapp/myapp/express_example
+39 error node -v v0.10.31
+40 error npm -v 1.4.23
+41 error code E404
+42 verbose exit [ 1, true ]

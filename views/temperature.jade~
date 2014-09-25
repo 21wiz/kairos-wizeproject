@@ -1,0 +1,25 @@
+extends layout
+ 
+block content
+  h1 Temperature
+  section.css-table
+    section.two-column
+      section.cell
+        h2!= message
+        p= message
+        p pppppppppppppppppppppppppp
+      section.cell
+        h2 header2
+        p pppppppppppppppppppppppppppppppp
+        p pppppppppppppppppp
+  section.css-table
+    section.three-column
+      section.cell
+        h3 header3
+        p pppp ppppp ppppppp.. ..pafdasppp pppppppppppppppppp
+      section.cell
+        h3 header3
+        p ppppp pppppppppppp pppppppppasfa ppp ppp pp p  p  p pppppp.
+      section.cell
+        h3 header3
+        p pppppppppppppp pppppppppppppppppppppppppppppppppppppp pppppppppppppppppp.

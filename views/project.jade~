@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  h1  Kairos Project:
+  section.css-table
+    section.two-column
+      section.cell
+        h2 Author:
+        p Jorge Alcantara Barroso
+        p www.linkedin.com/pub/jorge-alcantara-barroso/66/3a2/6a2/.
+      section.cell
+        h2 About
+        p Lorem ipsum dolar sit amet, cons incidunt ut labore et dolore magn trud exercitation ullamcorpor susc vel eum irure dolor in reprehende dolore eu fugiat nulla pariatur.
+        p afadfsdfasdf
+  section.css-table
+    section.three-column
+      section.cell
+        h3 Version 
+        p 0.9.23
+      section.cell
+        h3 Resources:
+        p Thingsquare.
+        p Node.js + Express.
+        p 6LoWPAN.
+        p Texas Instruments.
+      section.cell
+        h3 Aliquam vulputate
+        p Lorem ipsum dolar sit amet, cons incidunt ut labore et dolore magn trud exercitation ullamcorpor susc vel eum irure dolor in reprehende dolore eu fugiat nulla pariatur.

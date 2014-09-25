@@ -1,0 +1,8 @@
+name
+mode
+period
+power
+x
+y
+z
+leds
